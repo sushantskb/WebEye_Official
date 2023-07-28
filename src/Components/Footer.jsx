@@ -8,7 +8,7 @@ function Footer() {
             <h2 id="footer-heading" class="sr-only">Footer</h2>
             
 
-            <div class="px-5 py-12 mx-auto bg-gray-50 max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
+            <div class="px-5 py-12 mx-auto bg-white max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
                 <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
                     <a href="#" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only">Facebook</span>

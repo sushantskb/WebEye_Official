@@ -30,13 +30,6 @@ const eventsData = [
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
   },
-  {
-    title: "Tailwind CSS Workshop",
-    name: "By Sushant Bishoi",
-    imageSrc: "",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
-  },
 ];
 
 const Event = () => {

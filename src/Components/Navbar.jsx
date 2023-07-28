@@ -1,14 +1,15 @@
 import { useState } from "react";
 import React from "react";
-import "./Navbar.css"
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 function Navbar() {
         const [isMenuOpen, setIsMenuOpen] = useState(false);
 
         return (
             <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div class="navbar relative flex items-center justify-between">
-                    <a
-                        href="/"
+                    <Link
+                        to="/"
                         aria-label="Company"
                         title="Company"
                         class="inline-flex items-center"
@@ -16,47 +17,47 @@ function Navbar() {
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                             Web<span className="logo">Eye</span>
                         </span>
-                    </a>
+                    </Link>
                     <ul class="flex items-center hidden space-x-8 lg:flex">
                         <li>
-                            <a
-                                href="/"
+                            <Link
+                                to="/"
                                 aria-label="Our product"
                                 title="Our product"
                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                             >
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="/"
+                            <Link
+                                to="/leaderboard"
                                 aria-label="Our product"
                                 title="Our product"
                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                             >
                                 Leaderboard
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="/"
+                            <Link
+                                to="/register"
                                 aria-label="Product pricing"
                                 title="Product pricing"
                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                             >
                                 Register
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="/"
+                            <Link
+                                to="/about"
                                 aria-label="About us"
                                 title="About us"
                                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                             >
                                 About us
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <div class="lg:hidden">
@@ -86,8 +87,8 @@ function Navbar() {
                                 <div class="p-5 bg-white border rounded shadow-sm">
                                     <div class="flex items-center justify-between mb-4">
                                         <div>
-                                            <a
-                                                href="/"
+                                            <Link
+                                                to="/"
                                                 aria-label="Company"
                                                 title="Company"
                                                 class="inline-flex items-center"
@@ -95,7 +96,7 @@ function Navbar() {
                                                 <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                                                     Web<span className="logo">Eye</span>
                                                 </span>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div>
                                             <button
@@ -116,44 +117,44 @@ function Navbar() {
                                     <nav>
                                         <ul class="space-y-4">
                                             <li>
-                                                <a
-                                                    href="/"
+                                                <Link
+                                                    to="/"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                                                 >
                                                     Home
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    href="/"
+                                                <Link
+                                                    to="/leaderboard"
                                                     aria-label="Our product"
                                                     title="Our product"
                                                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                                                 >
                                                     Leaderboard
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    href="/"
+                                                <Link
+                                                    to="/register"
                                                     aria-label="Product pricing"
                                                     title="Product pricing"
                                                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                                                 >
                                                     Register
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a
-                                                    href="/"
+                                                <Link
+                                                    to="/about"
                                                     aria-label="About us"
                                                     title="About us"
                                                     class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                                                 >
                                                     About us
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </nav>
