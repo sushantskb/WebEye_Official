@@ -12,21 +12,21 @@ const eventsData = [
   {
     title: "Node Js | Express Js Workshop",
     name: "Ayush Sharma",
-    imageSrc: "",
+    imageSrc: "https://i.ytimg.com/vi/wVo-UMit5Ig/maxresdefault.jpg",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
   },
   {
     title: "MongoDb Workshop",
     name: "By Sushant Bishoi",
-    imageSrc: "",
+    imageSrc: "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
   },
   {
     title: "Security and Auth Workshop",
     name: "By Sushant Bishoi",
-    imageSrc: "",
+    imageSrc: "https://www.indusface.com/wp-content/uploads/2020/07/why-authentication-alone-is-not-enough-web-app-security.png",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?",
   },

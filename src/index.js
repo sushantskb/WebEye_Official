@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Register from './Components/Register';
+import LeaderBoard from './Components/LeaderBoard';
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/leaderboard",
+    element: <LeaderBoard />,
   },
 ]);
 ReactDOM.render(

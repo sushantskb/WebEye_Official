@@ -29,6 +29,9 @@ body {
     display: flex;
     align-items: center;
 }
+.completed{
+    opacity: 0.3;
+}
 
 
 .swiper {
@@ -109,3 +112,10 @@ body {
     border-radius: 0.5em;
     cursor: pointer;
 }
+@media only screen and (max-width: 452px) {
+    .event-tittle{
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+} 
