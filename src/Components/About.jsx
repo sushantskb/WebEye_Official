@@ -64,6 +64,11 @@ function About() {
                             desc="Content || Management"
                         />
                         <AboutCard 
+                            image='https://i.imgur.com/ODnyk8v.jpg'
+                            name="Sreehita Ramesh Deverasetii"
+                            desc="Content || Management"
+                        />
+                        <AboutCard 
                             image="https://i.imgur.com/q8fU5fF.jpg"
                             name="B Akash"
                             desc="Content || Management"
